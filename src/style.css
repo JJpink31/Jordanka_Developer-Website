@@ -1,14 +1,19 @@
-.container {
-    max-width:none;
-    margin:0 auto;
-}
-header{
-   background-image: url("../images/Jordanka.png");
-   background-repeat: no-repeat;
-   background-size: cover;  
+.container{
+    margin: 0 auto;
+    
 }
 
-h1, h2, h3 {
-    margin-left: 80px;
-    font-size: 100px;
+header{
+    background-image: url(../images/Jordanka.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 1200px;
+}
+ header h1{
+    font-size: 80px;
+ }
+ 
+header h2{
+    padding-top:100px;
 }
