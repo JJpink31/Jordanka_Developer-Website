@@ -48,3 +48,13 @@ section h3{
     font-weight: 500;
     font-style: normal;
 }
+
+footer{
+    background-color: black;
+    color: #ffa3ab83 ;
+    padding: 40px;
+}
+
+footer a {
+    color: rgba(255, 255, 255, 0.588);
+}
