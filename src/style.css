@@ -2,6 +2,9 @@
     margin: 0 auto;
     
 }
+.nav.navbar-nav.navbar-dark li a {
+    color:blue;
+}
 
 header{
     background-image: url(../images/Jordanka.png);
