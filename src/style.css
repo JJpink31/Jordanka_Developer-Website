@@ -34,4 +34,13 @@ header h3{
     font-size: 40px;
     font-style: italic;
     margin-top: 25px;
+    margin-bottom: 200px;
+}
+.arrow-icon{
+    padding-top: 20px;
+    font-size:80px;
+}
+
+section h3{
+    text-align: center;
 }
