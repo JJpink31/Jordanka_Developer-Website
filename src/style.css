@@ -2,7 +2,13 @@
     margin: 0 auto;
     
 }
-
+.about-bg{
+    background: linear-gradient(to right, #f6a0a4 0%, #f6a0a4 40%,rgb(19, 19, 19) 40%, rgb(19, 19, 19) 100%
+    );
+}
+.about-info{
+    color:#ffdfe1;
+}
 
 header{
     background-image: url(../images/Jordanka.png);
