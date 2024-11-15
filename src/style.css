@@ -2,12 +2,34 @@
     margin: 0 auto;
     
 }
+
 .about-bg{
     background: linear-gradient(to right, #f6a0a4 0%, #f6a0a4 40%,rgb(19, 19, 19) 40%, rgb(19, 19, 19) 100%
     );
 }
 .about-info{
     color:#ffdfe1;
+}
+
+.about-h1{
+    font-size: 80px;
+    font-family: "Old Standard TT", serif;
+    font-weight: 500;
+    font-style: normal;
+    color:#f6a0a4;
+}
+.about-h2 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    color: #f6a0a4;
+}
+
+.card{
+    display: block;
+    position: sticky;
+   left: 400px;
+   top: 100px;
+ 
 }
 
 header{
