@@ -1,7 +1,6 @@
 function sendMail() {
     var params = {
-      name: document.getElementById("firstName").value,
-      name: document.getElementById("LastName").value,
+      name: document.getElementById("name").value,
       email: document.getElementById("email").value,
       message: document.getElementById("message").value,
     };
@@ -15,10 +14,8 @@ function sendMail() {
           document.getElementById("email").value = "";
           document.getElementById("message").value = "";
           console.log(res);
-          alert("Your message sent successfully!!")
+          alert("Thank you for your message!!")
   
       })
       .catch(err=>console.log(err));
-      alert("I'm sorry your message was not able to send")
-  
   }
