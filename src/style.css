@@ -1,17 +1,21 @@
-.container{
-    margin: 0 auto;
-    
-}
-
+:root {
+    --primary-color: #f6a0a4;
+    --text-placement: center;
+    --transitons-hover: 300ms ease-in-out;
+    --main-font: "Yellowtail", cursive;
+    --primary-font:"Old Standard TT", serif;
+    --secondary-font: "Open Sans", sans-serif;
+    --border: 2px solid white;
+    ---border-radius: 8px;
+    --margin-top-section: 100px;
+  }
 .about-grid {
-    display: grid;
-   
+    display: grid;  
 }
-
 .about-bg{
     background: linear-gradient(to right,
-     #f6a0a4 0%, 
-     #f6a0a4 35%,
+    var(--primary-color) 0%, 
+    var(--primary-color) 35%,
      rgb(19, 19, 19) 35%, 
      rgb(19, 19, 19) 100%
     );
@@ -25,12 +29,12 @@
     font-family: "Old Standard TT", serif;
     font-weight: 500;
     font-style: normal;
-    color:#f6a0a4;
+    color:var(--primary-color);
 }
 .about-h2, .resumeTitle {
     font-family: "Open Sans", sans-serif;
     font-weight: 300;
-    color: #f6a0a4;
+    color: var(--primary-color);
 }
 
 .card{
@@ -42,11 +46,9 @@
 .about-grid {
     display: grid;
     grid-template-columns: 1fr, 1fr,3fr;
-    padding: 0;
-   
-
-  
+    padding: 0;  
 }
+
 
 header{
     background-image: url(../images/Jordanka.png);
@@ -92,6 +94,30 @@ section h3{
     font-weight: 500;
     font-style: normal;
 }
+
+.contact-bg{
+    max-width: 100%;
+    background-color: var(--primary-color);
+}
+
+.contactContainer {
+    background-color: #ffffff64;
+    padding: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-width: 700px;
+    border: 2px solid white;  
+    border-radius: 20px; 
+    line-height: 2; 
+}
+.btn {
+    background: rgb(255, 179, 194); 
+    border-radius: 8px;
+  }
+  .btn:hover {
+    background: rgba(231, 94, 151, 0.7);
+    transition: var(--transitons-hover);
+  }
 
 footer{
     background-color: black;
