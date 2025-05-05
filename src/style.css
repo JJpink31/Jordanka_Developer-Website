@@ -9,6 +9,57 @@
     ---border-radius: 8px;
     --margin-top-section: 100px;
   }
+
+header{
+    background-image: url(../images/Jordanka.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-bottom: 200px;
+}
+ header h1{
+    font-size: 80px;
+    font-family: "Old Standard TT", serif;
+    font-weight: 500;
+    font-style: normal;
+ }
+
+
+header h2, header h3{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    color: #5b2f2db9;
+}
+ 
+header h2 {
+    padding-top:100px; 
+    line-height: 2.5;
+    margin-left: 10px;
+}
+
+header h3 {
+    font-size: 40px;
+    font-style: italic;
+    margin-top: 25px;
+    margin-bottom: 200px;
+}
+.arrow-icon{
+    padding-top: 20px;
+    font-size:80px;
+}
+
+section h3 {
+    text-align: center;
+    font-size: 60px;
+    font-family: "Old Standard TT", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.project-gallery {
+    margin-left:50px;
+    margin-right: 50px;
+}
+
 .about-grid {
     display: grid;  
 }
@@ -50,50 +101,7 @@
 }
 
 
-header{
-    background-image: url(../images/Jordanka.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding-bottom: 200px;
-}
- header h1{
-    font-size: 80px;
-    font-family: "Old Standard TT", serif;
-    font-weight: 500;
-    font-style: normal;
- }
 
-
-header h2, header h3{
-    font-family: "Open Sans", sans-serif;
-    font-weight: 300;
-    color: #5b2f2db9;
-}
- 
-header h2 {
-    padding-top:100px; 
-    line-height: 2.5;
-    margin-left: 10px;
-}
-
-header h3{
-    font-size: 40px;
-    font-style: italic;
-    margin-top: 25px;
-    margin-bottom: 200px;
-}
-.arrow-icon{
-    padding-top: 20px;
-    font-size:80px;
-}
-
-section h3{
-    text-align: center;
-    font-size: 60px;
-    font-family: "Old Standard TT", serif;
-    font-weight: 500;
-    font-style: normal;
-}
 
 .contact-bg{
     background-color: var(--primary-color);
@@ -112,12 +120,13 @@ section h3{
 .form-contact{
     max-width: 380px;
 }
-.btn {
-    background: rgb(255, 179, 194); 
+ #launch-app {
+    background: #f49aa6; 
     border-radius: 8px;
   } 
-  .btn:hover {
-    background: rgba(231, 94, 151, 0.7);
+  #launch-app:hover {
+    background: rgba(255, 201, 223, 0.885);
+    color: black;
     transition: var(--transitons-hover);
   }
 
