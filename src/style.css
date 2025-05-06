@@ -59,10 +59,20 @@ section h3 {
     margin-left:50px;
     margin-right: 50px;
 }
-.description,.appTitle, #launch-app{
-    display: none;
-
+.imageContainer{
+    display: inline-block;
 }
+
+.hidden {
+    display: none;
+    visibility:hidden;
+    
+}
+.imageContainer:hover ~ .hidden {
+    display:block;
+    visibility: visible;
+}
+
 
 
 .about-grid {
