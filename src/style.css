@@ -55,25 +55,20 @@ section h3 {
     font-style: normal;
 }
 
-.project-gallery {
-    margin-left:50px;
-    margin-right: 50px;
+.container {
+    display: grid;
 }
 
-.project-gallery,  img {
-        width: 400px;
-        height: 400px;
-        object-fit:scale-down;
-      
+.container img{
+    width: 450px;
+    border-radius: 13px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+   
 }
-.imageContainer{
-    display: inline-block;
-}
-
 .hidden {
     display: none;
-    visibility:hidden;
-    
+    visibility:hidden;   
 }
 .imageContainer:hover ~ .hidden {
     display:block;
