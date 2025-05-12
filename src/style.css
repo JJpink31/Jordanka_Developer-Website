@@ -56,29 +56,85 @@ section h3 {
 }
 
 .container {
-    display: grid;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
-.container img{
-    width: 450px;
-    border-radius: 13px;
-    margin: 0 auto;
-    margin-bottom: 30px;
-   
+.imageContainer {
+  width: 300px;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
 }
-.imageContainer{
-    position: relative;
-    display: inline-block;
-    width: 100%;
-}
-.imageContainer:hover ~ .hidden{
-    position: absolute;  
-    transform: translate(-50%, -50%);
-    z-index: auto;
+
+.text {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 400px;
+  padding: 20px;
+  box-sizing: border-box;
+
+  .app-title {
+    position: absolute;
+    font-size: 2rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+  #launch-app{
+    visibility: hidden;
+  }
+
+  p {
+    visibility: hidden;
     color: white;
-    background: rgba(65, 64, 64, 0.51);
+  }
+
+  &:hover {
+    width: 300px;
+    height: 400px;
+    background-color: rgba(64, 67, 72, 0.8);
+  }
+
+  &:hover .app-title {
+    visibility: hidden;
+  }
+
+  &:hover p {
+    visibility: visible;
+  }
+  &:hover #launch-app{
+    visibility: visible;
+  }
 }
 
+#mermaid {
+  background-image: url(../images/Mermaid.png);
+}
+
+#clock-app {
+  background-image: url(../images/clock.png);
+}
+
+#weather-app {
+  background-image: url(../images/Weather_App.png);
+}
+
+#dictionary-app {
+  background-image: url(../images/Dictionay.png);
+}
+
+#marc-anthony {
+  background-image: url(../images/Marc-landing.png);
+}
+
+#italian-recipes {
+  background-image: url(../images/AIrecipe.png);
+}
 
 .about-grid {
     display: grid;  

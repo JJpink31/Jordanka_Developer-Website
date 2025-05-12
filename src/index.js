@@ -1,17 +1,3 @@
-document.addEventListener('DOMContentLoaded',function () {
-  const images=document.querySelectorAll('.imageContainer')
-  const descriptions=document.querySelectorAll('.hidden');
-  images.forEach((image, index) => {
-    image.addEventListener('mouseover', () => {
-        descriptions[index].style.display = 'block';
-    });
-
-    image.addEventListener('mouseout', () => {
-        descriptions[index].style.display = 'none';
-    });
-});
-});
-
 function sendMail() {
     var params = {
       name: document.getElementById("name").value,
