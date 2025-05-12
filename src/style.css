@@ -63,8 +63,7 @@ section h3 {
 .imageContainer {
  width: 300px;
  height: 450px;
- background-size: contain;
- background-repeat: no-repeat;
+ background-size: cover;
  background-position: center;
 }
 
