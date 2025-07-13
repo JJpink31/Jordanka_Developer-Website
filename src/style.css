@@ -64,6 +64,7 @@ section h3 {
 }
 
 .imageContainer {
+display: flex;
  width: 300px;
  height: 450px;
  border-radius: 40px;
@@ -229,7 +230,7 @@ section h3 {
     border-radius: 8px;
   } 
   #launch-app:hover {
-    background: rgba(255, 103, 164, 0.885);
+    background: rgba(248, 52, 101, 0.885);
     color: rgb(255, 255, 255);
     transition: var(--transitons-hover);
   }
@@ -275,7 +276,4 @@ footer a {
   padding: 10px !important;
   font-size: 15px;
  }
- &:hover {
-  background-size: auto;
 }
- }
