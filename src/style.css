@@ -16,6 +16,10 @@ header{
     background-repeat: no-repeat;
     padding-bottom: 200px;
 }
+  header, h1 h2 h3 {
+    padding-left: 20px;
+  }
+
  header h1{
     font-size: 80px;
     font-family: "Old Standard TT", serif;
@@ -31,7 +35,7 @@ header h2, header h3{
 }
  
 header h2 {
-    padding-top:100px; 
+    padding-top: 50px; 
     line-height: 2.5;
 }
 
@@ -48,11 +52,12 @@ header h3 {
 
 section h3 {
     text-align: center;
-    font-size: 60px;
+    font-size: 80px;
     font-family: "Old Standard TT", serif;
     font-weight: 500;
     font-style: normal;
     line-height: 3;
+    text-decoration: underline;
 }
 
 .project-gallery h3 {
@@ -247,25 +252,71 @@ footer a {
     color: rgba(255, 255, 255, 0.588);
 }
 
- @media (max-width: 500px) {
-  header{
-     padding-bottom: 100px;
-  }
-  header, h1 h2 h3 {
-    padding-left: 20px;
-  }
-  header h1{
-     font-size: 25px;
+ @media (max-width: 1200px) {
+   header h1{
+     font-size: 70px;
      padding-left: 0;
   }
   header h2 {
-    padding-top: 20px;
+    padding-top: 30px;
     line-height: 1.5;
-    font-size: 14px;
+    font-size: 25px;
   }
   header h3{
-    font-size: 16px;
+    font-size: 35px;
     margin-top: 10px;
+    margin-bottom: 50px;
+  }
+ }
+ @media (max-width: 950px) {
+   header h1{
+     font-size: 50px;
+     padding-left: 0;
+  }
+  header h2 {
+    padding-top: 30px;
+    line-height: 1.5;
+    font-size: 15px;
+  }
+  header h3{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
+ }
+  @media (max-width: 700px) {
+   header h1{
+     font-size: 30px;
+     padding-left: 0;
+  }
+  header h2 {
+    padding-top: 15px;
+    line-height: 1.5;
+    font-size: 12px;
+  }
+  header h3{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
+ }
+
+ @media (max-width: 450px) {
+  header{
+     padding-bottom: 100px;
+  }
+  header h1{
+     font-size: 23px;
+     padding-left: 0;
+  }
+  header h2 {
+    padding-top: 10px;
+    line-height: 1.5;
+    font-size: 12px;
+  }
+  header h3{
+    font-size: 12px;
+    margin-top: 5px;
     margin-bottom: 50px;
   }
   .arrow-icon{
@@ -277,3 +328,4 @@ footer a {
   font-size: 15px;
  }
 }
+
