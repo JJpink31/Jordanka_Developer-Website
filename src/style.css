@@ -10,6 +10,8 @@
     --margin-top-section: 100px;
   }
 
+
+/* Homepage */
 header{
     background-image: url(../images/Jordanka.png);
     background-size: contain;
@@ -169,6 +171,19 @@ display: flex;
  background-image: url(../images/AIrecipe.png);
 }
 
+ #launch-app {
+    background: #f49aa6; 
+    border-radius: 8px;
+  } 
+  #launch-app:hover {
+    background: rgba(248, 52, 101, 0.885);
+    color: rgb(255, 255, 255);
+    transition: var(--transitons-hover);
+  }
+
+
+/* About Page */
+
 .about-bg{
   margin: 12px;
 }
@@ -212,16 +227,14 @@ display: flex;
   }
 
 
-
-
+  /* Contact Page */
 
 .contact-bg{
-    background-color: var(--primary-color);
+    background-color: var(--primary-color);    
 }
 
 .contactContainer {
     background-color: #ffffff64;
-    padding: 50px;
     margin-top: 50px;
     margin-bottom: 50px;
     max-width: 700px;
@@ -229,25 +242,37 @@ display: flex;
     border-radius: 20px; 
     line-height: 2;
 }
-.form-contact{
-    max-width: 380px;
+
+.contactContainer h1 {
+  font-size: 40px;
+  font-family: var(--main-font);
+  font-weight: 900;
+  font-style: italic;
 }
- #launch-app {
-    background: #f49aa6; 
-    border-radius: 8px;
-  } 
-  #launch-app:hover {
-    background: rgba(248, 52, 101, 0.885);
+.form-contact{
+  font-family: var(--main-font);
+  max-width: 20rem;
+}
+::placeholder {
+  font-family: var(--secondary-font);
+}
+
+#sendButton{
+  border-radius: 20px;
+  font-family: var(--primary-font);
+}
+
+#sendButton:hover {
+   background: rgba(248, 52, 101, 0.885);
     color: rgb(255, 255, 255);
     transition: var(--transitons-hover);
-  }
+}
 
 
 footer{
     background-color: black;
     color: #ffa3ab83 ;
-    padding: 40px;
-   
+    padding: 40px;   
 }
 
 footer a {
@@ -347,6 +372,11 @@ footer .link-icons {
   font-size: 15px;
  }
 
+ .contactContainer{
+  max-width: 350px;
+ }
 
+ #message {
+  max-width: 20rem;
+ }
 }
-

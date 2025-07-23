@@ -26,7 +26,6 @@
     <title>Contact-Jordanka </title>
 </head>
 <body>
-    <div class="container-fluid">
       <div class="contact-bg">
         <nav class="navbar navbar-light
         " style="background-color: #ffdfe1">
@@ -60,11 +59,12 @@
               </div>
             </div>
           </nav>
+
     <div class="contactContainer container-fluid">
         <div class="row">
-            <h1 class="text-center mb-5">Let's get in Touch!</h1>
+            <h1 class="text-center mt-5 mb-5">Let's get in Touch!</h1>
         </div>
-        <div class="form-contact ms-5">
+        <div class="form-contact me-5">
             <h3 for="name">Name</h3>
             <input type="text" 
             class="form-control mt-2 mb-4" 
@@ -78,15 +78,15 @@
             id="email" 
             placeholder="Enter Email"/>
         </div>
-        <div class="form-contact">
+        <div class="form-contact mb-4 me-5">
             <h3 for="message">Message</h3>
-            <textarea style="width: 600px;"
+            <textarea style="width:35rem"
             class="form-control mb-4" 
             id="message" 
             placeholder="Any questions comments please right here" 
             rows="7"></textarea>
         </div>
-        <button class="btn btn-dark text-start text-start border border-white mb-5 p-3" onclick="sendMail()">Send</button>
+        <button id="sendButton" class="btn btn-dark text-start text-start border border-white mb-5 p-3" onclick="sendMail()">Send</button>
     </div>
     </div>
 <footer>   
@@ -118,5 +118,6 @@
     >Netlify</a>
 </div>
 </footer>
+</div>
 </body>
 </html>
