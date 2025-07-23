@@ -200,9 +200,12 @@ display: flex;
     display: block;
     margin-top: 80px;
 }
+#Resume-button{
+  background-color: #f49aa6;
+  border-radius: 20px;
+}
 
-
-:hover #Resume-button {
+#Resume-button:hover {
     background: rgba(248, 52, 101, 0.885);
     color: rgb(255, 255, 255);
     transition: var(--transitons-hover);
